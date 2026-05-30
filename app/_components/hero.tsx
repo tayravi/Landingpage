@@ -45,7 +45,7 @@ export default function Hero() {
 
                     <div className="mt-8">   
                         <p className="text-sm mb-4">
-                         <b className="bg-black text-white px-2 py-1 rounded-md">10%</b> Desconto nas primeiras compras
+                         <b className="bg-black text-white px-2 py-1 rounded-md">30%</b> Desconto nas primeiras compras
                         </p>
                     </div>
                 </div>

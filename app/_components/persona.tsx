@@ -1,28 +1,25 @@
-import Image from 'next/image'
-import Logo from '../../../unicamp/public/aprovados.webp'
 import { Check, MapPin } from "lucide-react";
 import { WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr'
 
 
 
-export function About() {
+export function Persona() {
     return (
-        <section className="bg-[#FDF6ec] py-16">
+        <section className="bg-[#FFD449] py-16">
             <div className="container px-4 mx-auto">
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-                <div className="relative w-full h-100 rounded-3xl overflow-hidden">
-                    <Image
-                        src="/aprovados.webp"
-                        alt="Alunos aprovados"
-                        fill
-                        quality={100}
-                        className="object-cover hover:scale-110 duration-300"
-                        priority
-                    />
+                <div className="relative w-full aspect-video rounded-3xl overflow-hidden shadow-lg">
+                    <iframe
+                        className="w-full h-full"
+                        src="https://www.youtube-nocookie.com/embed/nxCwjRXL_vc"
+                        title="Vídeo do curso"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
                 </div>
-
+                
                 <div className="space-y-6 mt-10">
                     <h2 className="text-4xl font-bold">SOBRE O CURSO</h2>
                     
