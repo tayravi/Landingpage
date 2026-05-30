@@ -26,11 +26,11 @@ export default function Hero() {
 
                 <div className="space-y-6">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
-                    Curso Para Transferência Externa - Unicamp
+                    Curso Preparatório para Transferência Externa da Unicamp
                     </h1>
                     <p className="lg:text-lg">
-                    O curso de transferência externa para a Unicamp é uma oportunidade para estudantes que desejam ingressar na universidade por meio de transferência de outra instituição de ensino superior. 
-                    A Unicamp é uma das principais universidades do Brasil, conhecida por sua excelência acadêmica e pesquisa de ponta. 
+                    O Curso Preparatório para Transferência Externa da Unicamp foi desenvolvido para estudantes que desejam ingressar na universidade por meio da transferência de outra instituição de ensino superior.
+                    Estude com questões resolvidas, teoria objetiva e uma estratégia focada na aprovação. Saiba exatamente o que estudar e prepare-se com confiança para conquistar sua vaga na Unicamp.
                     </p>
 
                     <div className="flex">
