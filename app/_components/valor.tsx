@@ -1,5 +1,5 @@
 import { Check, MapPin } from "lucide-react";
-import { WhatsappLogoIcon } from '@phosphor-icons/react/dist/ssr'
+import { CheersIcon } from '@phosphor-icons/react/dist/ssr'
 
 
 
@@ -8,7 +8,7 @@ export function Valor() {
 <section className="bg-[#111111] py-12">
   <div className="container mx-auto px-4">
 
-    <div className="max-w-2xl mx-auto bg-zinc-900 border border-zinc-800 rounded-2xl p-6 md:p-8 text-center">
+    <div className="max-w-2xl mx-auto bg-zinc-900 border border-zinc-800 rounded-2xl p-6 md:p-8 text-center" data-aos="flip-left">
 
       <span className="inline-block bg-red-600 text-white px-3 py-1 rounded-full text-xs font-bold">
         🔥 30% OFF NAS PRIMEIRAS VAGAS
@@ -60,10 +60,10 @@ export function Valor() {
       </div>
 
       <a
-        href="#"
+        href="https://pay.kiwify.com.br/FoZEkMq"
         className="inline-flex items-center gap-2 mt-8 bg-green-500 hover:bg-green-600 duration-300 text-white font-bold px-6 py-3 rounded-xl"
       >
-        <WhatsappLogoIcon className="w-5 h-5" />
+        <CheersIcon className="w-5 h-5" />
         QUERO ME INSCREVER
       </a>
 

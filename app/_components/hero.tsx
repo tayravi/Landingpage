@@ -25,21 +25,27 @@ export default function Hero() {
             <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
 
                 <div className="space-y-6">
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10"
+                    data-aos="fade-down">                        
                     Curso Preparatório para Transferência Externa da Unicamp
                     </h1>
-                    <p className="lg:text-lg">
-                    O Curso Preparatório para Transferência Externa da Unicamp foi desenvolvido para estudantes que desejam ingressar na universidade por meio da transferência de outra instituição de ensino superior.
-                    Estude com questões resolvidas, teoria objetiva e uma estratégia focada na aprovação. Saiba exatamente o que estudar e prepare-se com confiança para conquistar sua vaga na Unicamp.
+                    <p className="lg:text-lg" data-aos="fade-right">
+                      O Curso Preparatório para Transferência Externa da Unicamp foi desenvolvido para estudantes que desejam ingressar na universidade por meio da transferência de outra instituição de ensino superior.
+                      Estude com questões resolvidas, teoria objetiva e uma estratégia focada na aprovação. Saiba exatamente o que estudar e prepare-se com confiança para conquistar sua vaga na Unicamp.
                     </p>
 
                     <div className="flex">
-                        <a 
-                        href="#"
-                        className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center gap-2"
+                        <a
+                        data-aos="fade-up"
+                        data-aos-delay="400" 
+                        href="https://wa.me/5511999903868"
+                        
+                        className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-lg font-bold flex items-center justify-center gap-2"
+
+                        
                         >
                             <WhatsappLogoIcon className="w-5 h-5" />
-                            Contato WhatsApp
+                            Tirar Dúvidas no WhatsApp
                         </a>
                     </div>
 
